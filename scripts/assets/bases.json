@@ -1,0 +1,67 @@
+[
+    {
+        "allowedSizes": [0, 1, 2],
+        "allowedMilks": [1, 2, 3, 4, 5, 6, 7],
+        "allowedSyrups": [0, 1, 2, 3, 4, 5],
+        "allowedPowders": [0, 1, 2, 3, 4, 5],
+        "defaultSize": 1,
+        "price": 50,
+        "name": "Латте",
+        "image": {
+            "base": ".base {fill: #a9442d; opacity: 1;}",
+            "feature": ".syrop {fill: #a9442d; opacity: 1;} .milk{fill: #a9442d; opacity: 1;}  .hat{opacity:0;} .powder{opacity:0;}"
+        }
+    },
+    {
+        "allowedSizes": [0, 1, 2],
+        "allowedMilks": [0, 1, 2, 3, 4, 5, 6, 7],
+        "allowedSyrups": [0, 1, 2, 3, 4, 5],
+        "allowedPowders": [0, 1, 2, 4],
+        "defaultSize": 2,
+        "price": 130,
+        "name": "Капучино",
+        "image": {
+            "base": ".base {fill: #6c1300; opacity: 1;}",
+            "feature": ".syrop, .milk {fill: #6c1300; opacity: 1;} .hat{opacity: 0;} .powder{opacity:0;}"
+        }
+    },
+    {
+        "allowedSizes": [0, 1, 2],
+        "allowedMilks": [0, 1, 2, 3, 4, 5, 6, 7],
+        "allowedSyrups": [0, 1, 2, 3, 4, 5],
+        "allowedPowders": [0, 1, 2, 3, 4, 5],
+        "defaultSize": 2,
+        "price": 90,
+        "name": "Раф",
+        "image": {
+            "base": ".base {fill: #f8782e; opacity: 1;}",
+            "feature": ".syrop, .milk{fill: #f8782e; opacity: 1;} .hat{ fill: #e6e6e6; opacity: 1;} .powder{opacity:0;}"
+        }
+    },
+    {
+        "allowedSizes": [0],
+        "allowedMilks": [1],
+        "allowedSyrups": [0],
+        "allowedPowders": [0, 2, 5],
+        "defaultSize": 1,
+        "price": 100,
+        "name": "Американо",
+        "image": {
+            "base": ".base {fill: #471105; opacity: 1;}",
+            "feature": ".syrop, .milk{fill: #471105; opacity: 1;} .hat{opacity: 0;} .powder{opacity:0;}"
+        }
+    },
+    {
+        "allowedSizes": [0],
+        "allowedMilks": [0],
+        "allowedSyrups": [0],
+        "allowedPowders": [0],
+        "defaultSize": 0,
+        "price": 90,
+        "name": "Эспрессо",
+        "image": {
+            "base": ".base {fill: #471105; opacity: 1;}",
+            "feature": ".syrop, .milk{fill: #471105; opacity: 1;} .hat{opacity: 0;} .powder{opacity:0;}"
+        }
+    }
+]
