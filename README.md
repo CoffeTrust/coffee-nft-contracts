@@ -34,6 +34,6 @@ npx hardhat test
 npx hardhat local
 ```
 
-##TODO:
+## TODO:
 
 -   Починить тесты
